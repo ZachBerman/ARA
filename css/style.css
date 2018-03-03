@@ -1611,7 +1611,7 @@ Intro sections
   padding-top: 200px;
 }
 .breadcrumb-vcontact.b-parllax {
-  background: url("../images/contact-header.jpg") no-repeat;
+  background: url("../images/gallery-header.jpg") no-repeat;
   background-size: cover;
   background-position: 0 0;
   background-attachment: fixed;
@@ -4718,7 +4718,10 @@ FOOTER STYLES
   }
   .breadcrumb-v1.b-parllax {
   background: url("../images/gallery-header-mobile.jpg") no-repeat;
-}
+  }
+  .breadcrumb-vcontact.b-parllax {
+  background: url("../images/gallery-header-mobile.jpg") no-repeat;
+  }
 }
 
 .navbar-default .navbar-nav>li>a.active-link {
