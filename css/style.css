@@ -598,9 +598,8 @@ Top bar styles
 }
 .top-header .navbar-nav > li > a {
   font-weight: 500;
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: 0px;
-  font-family: 'Roboto', sans-serif;
 }
 .top-header .navbar-nav > li > a:hover {
   color: #09c4f2;
