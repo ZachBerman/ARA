@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Awesome Project Management &amp; Renovations | Home</title>
+
+        <!-- Bootstrap -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/animate.css" rel="stylesheet">
+        <!--main css file-->
+        <link href="css/style.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+        <div id="preloader"></div>
+        <!--top bar start-->
+        <section id="top"></section>
+        <div class="top-bar-v1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <ul class="list-inline">
+                            <li><a href="tel:1-587-226-9666" class="tel"><i class="fa fa-phone-square"></i> (587) 226-9666</a></li>
+                            <li><a href="mailto:d.berg@shaw.ca"><i class="fa fa-envelope-square"></i> d.berg@shaw.ca</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 hidden-xs text-right">
+                        <ul class="list-inline">
+                            <li class=""><a href="https://www.linkedin.com/in/dennis-berg-8430085b/?ppe=1" target="_blank"><img src="images/linkedin-logo.png"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--top bar end-->
+        <!-- header -->
+        <header class="top-header navbar-default navbar navbar-static-top sticky-header yamm">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><h3 class="script hidden-xs">Awesome Project Management &amp; Renovations</h3><h5 class="script visible-xs">Awesome Project Management &amp; Renovations</h5><!-- <img src="images/logo-dark.png" alt="logo"> --></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="">
+                            <a href="index.html" class="active" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+                        <li class="">
+                            <a href="about.html" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                        </li>
+                        <li class="">
+                            <a href="projects.html" aria-expanded="false">Projects</a>
+                        </li>
+                        <li class="buttons">
+                            <a href="#top" class="active-link" role="button" aria-expanded="false">Contact</a>
+                        </li>
+                        <li class="placeholder" style="visibility:hidden;">
+                            <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a>
+                        </li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div><!--/.container-fluid -->
+        </header>
+        <!-- header end -->
+        <div class="clearfix"></div> 
+
+        <div class="breadcrumb-vcontact b-parllax" data-stellar-background-ratio="0.5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 animated fadeInUp">
+                        <h1 class="white script">Contact us</h1>
+                    </div>
+                </div>
+            </div>
+        </div><!--breadcrumb end-->
+        <div class="space-70"></div>
+        <div class="container">
+            <div class="row margin-b-50">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <p class="lead">Contact us today for a <strong>free estimate</strong> on your next project.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-7 margin-b-30">
+                   
+        <form id="contact-form" class="contact-form form" method="post" action="mailer.php">
+          <div id="form-messages" class="text-center"></div> 
+          <div class="row text-left">
+            <div class="name-group col-sm-6 col-xs-12 form-group">
+              <div class="form-group-inner">
+                <label for="cname">Name</label>
+                  <input type="text" class="form-control" id="cname" name="name" placeholder="Your name" minlength="2"  aria-required="true" required>
+              </div>
+            </div><!--//name-group-->
+            <div class="email-group col-sm-6 col-xs-12 form-group">
+              <div class="form-group-inner">
+                <label for="cemail">Email</label>
+                <input type="email" class="form-control" id="cemail" name="email" placeholder="Your email address" aria-required="true" required>
+              </div>
+            </div><!--//email-group-->
+            <div class="phone-group col-sm-6 col-xs-12 form-group">
+              <div class="form-group-inner">
+                <label for="cphone">Phone</label>
+                <input type="tel" class="form-control" id="cphone" name="phone" placeholder="Your phone number" aria-required="true" required>
+              </div>
+            </div><!--//phone-group-->
+            <div class="zipcode-group col-sm-6 col-xs-12 form-group">
+              <div class="form-group-inner">
+                <label for="czipcode">Zip Code</label>
+                <input type="text" class="form-control" id="czipcode" name="zipcode" placeholder="eg.94101" aria-required="true" required>
+              </div>
+            </div><!--//zipcode-group-->
+            <div class="message-group col-xs-12 form-group">
+              <div class="form-group-inner">
+                <label for="cmessage">Your project &amp; additional info</label>
+                  <textarea class="form-control" id="cmessage" name="message" rows="6" placeholder="Enter your project info here..."  required></textarea>
+              </div>
+            </div><!--//message-group-->
+            <div class="col-xs-12 form-group">
+              <button type="submit" class="btn btn-skin btn-xl">Submit</button>
+            </div> 
+          </div><!--//row-->
+        </form><!--//contact-form-->  
+
+                </div>
+                <div class="col-md-5">
+                    <h3 class="script">Get In Touch</h3>
+                    <p>
+                        Don't hesitate to contact us about your upcoming project. We are happy to share our wealth of experience to aid in any questions or issues you may have. We are currently taking on new projects and would love to discuss how we can help.
+                    </p>
+                    <hr>
+                    <p>
+                        Calgary, Alberta
+                    </p>
+                      <hr>
+                      <p>
+                          <strong>E:</strong><a href="mailto:d.berg@shaw.ca"> d.berg@shaw.ca</a><br>
+                          <strong>P:</strong><a href="tel:1-587-226-9666"> (587)-226-9666</a>
+                      </p>
+                </div>
+            </div>
+        </div>
+        <div class="space-40"></div>
+        <footer class="footer-v1 footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 margin-b-30">
+                    <ul class="list-inline text-center">
+                            <li><a href="tel:1-587-226-9666"><i class="fa fa-phone-square"></i>&nbsp;&nbsp;(587) 226-9666</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 margin-b-30">
+                        <h2 class="script text-center"><a href="index.html" class="white">Awesome Project Management &amp; Renovations</a></h2>
+                    </div>
+                    <div class="col-md-4 margin-b-30">
+                        <ul class="list-inline text-center">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li class="buttons"><a href="#top">Contact</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="space-30"></div>
+                <div class="footer-bottom">
+                    <div class="space-20"></div>
+                    <div class="row">
+                        <div class="col-sm-offset-4 col-sm-4 margin-b-20">
+                            <span>&copy; Copyright 2017. Designed by <a href="https://www.trendswebsolutions.com">Trends Mobile and Web Solutions</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--back to top-->
+        <div class="scrollToTop">
+            <div class="scroll icon"><i class="fa fa-4x fa-angle-up"></i></div>
+        </div>
+        <!--back to top end-->
+        <!-- jQuery plugins-->
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="js/jquery-migrate.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/modernizr.custom.97074.js" type="text/javascript"></script>
+        <script src="bower_components/lightbox2/dist/js/lightbox.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="bower_components/wow/dist/wow.min.js"></script>
+        <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="js/ajax-form.js"></script> 
+        <script src="js/versa.js" type="text/javascript"></script>
+        <script src="js/contact-validate.js" type="text/javascript"></script>
+        <script>
+            //smooth scroll
+            $(function () {
+                $('.buttons a[href*="#"]:not([href="#"])').click(function () {
+                    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                            $('html, body').animate({
+                                scrollTop: target.offset().top
+                            }, 700);
+                            return false;
+                        }
+                    }
+                });
+            });
+        </script>
+    </body> 
+</html>
