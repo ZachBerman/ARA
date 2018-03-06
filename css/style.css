@@ -4783,3 +4783,6 @@ li.projects-li:before {
   content: '\f274';
   margin:0 5px 0 -15px;
 }
+.about-box {
+  border:1px solid #eee;
+}
