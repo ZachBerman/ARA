@@ -24,7 +24,7 @@ $(document).ready(function () {
 
     });
     $(".testimonial-slide").owlCarousel({
-        autoPlay: 6000, //Set AutoPlay to 3 seconds
+        autoPlay: 12000, //Set AutoPlay to 3 seconds
         navigation: false,
         pagination: true,
         items: 1,
@@ -33,7 +33,7 @@ $(document).ready(function () {
         transitionStyle: 'goDown'
     });
     $(".testimonial-slide-2").owlCarousel({
-        autoPlay: 6000, //Set AutoPlay to 3 seconds
+        autoPlay: 9000, //Set AutoPlay to 3 seconds
         navigation: false,
         pagination: true,
         items: 2,
